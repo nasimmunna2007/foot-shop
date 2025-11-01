@@ -1,0 +1,285 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    /* border: 1px solid red; */
+}
+.heading-container {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+
+}
+.heading-container::after {
+    content: ".";
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px ;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.2s;
+    position: relative;
+}
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+/* heading section end  */
+/* hero section  */
+.hero {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero h2 {
+    font-size: 16px ;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: gray;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+    max-width: 700px;
+}
+.hero span {
+    color: rgb(245, 14, 14);
+
+}
+.hero p {
+    font-size: 16px;
+    margin-bottom: 32px;
+    line-height: 1.6;
+    color: gray;
+    max-width: 600px;
+}
+.botton {
+    display: flex;
+    gap: 20px;
+    /* padding: 10px 10px 10px 10px ; */
+    /* border: 1px solid red ; */
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding:15px 15px 15px 15px  ;
+    border: 1px solid ;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: red;
+    color: aliceblue;
+    box-shadow: 0 4px 15px brown ;
+}
+.btn:hover {
+    /* background-color: red; */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px brown;
+}
+.profile {
+    position: relative;
+
+}
+.btn-1, .btn-off{
+    position: absolute;
+    background-color: #fafdff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgb(231, 230, 230);
+}
+.btn-1 {
+    bottom: 120px;
+    left: 95px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.btn-off {
+    display: block;
+    top: 100px;
+    right: 70px;
+    background-color: #fcf9f9;
+    color: #121313;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* hero section end  */
+/* foot section with start  */
+.fooot-container {
+    width: 1280px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #f1f8fc; */
+    margin: 0 auto;
+}
+.fooot-container h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 65px;
+    /* border: 1px solid red; */
+
+}
+.fooot-container span {
+    color: rgb(252, 11, 11);
+}
+.foot-12 {
+    width: 100%;
+    /* border: 1px solid red; */
+    /* padding: 20px 0px 20px 0px ; */
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    /* background-color: #fcf9f9; */
+    
+
+}
+.image-conten {
+    width: 32%;
+    /* border: 1px solid red; */
+    /* padding: 40px 40px 40px 40px ; */
+}
+.image-conten img {
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px;
+}
+/* our best foot shop  */
+.product-container {
+    width: 1280px;
+    padding: 20px 0px 20px 0px;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading-h2 {
+    width: 100%;
+    /* border: 1px solid red; */
+    
+}
+.heading-h2 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.heading-h2 span {
+    color: red;
+}
+.heading-h2 p {
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+.image-container-1{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.image-conten-1 {
+    width: 30%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 17px;
+    box-shadow: 0px 2px 3px gray;
+    
+
+}
+.image-12 {
+    width: 100%;
+}
+.image-12 img {
+    border-radius: 17px;
+    box-shadow: 0px 3px 4px gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button-1 {
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+.button-1 p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+}
+.button-1 h4 {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(214, 15, 32);
+    font-weight: 600;
+}
+ /* our best foot shop end  */
+ /* footer section with start  */
+ .footer-container {
+    width: 1280px;
+    border: 1px solid ;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+background-color: black;
+ }
+ .footer-12 {
+    width: 30%;
+    /* border: 1px solid red; */
+    /* padding: 10px 10px 10px 10px ; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+ }
+.footer-12 h4 {
+    color: white;
+    font-size: 20px;
+}
+.footer-12 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-12 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
